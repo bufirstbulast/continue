@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>smdn</title>
+
+<body>
+<div>dssDas</div>
+</body>
+<script>
+var hsfis = window.location.hash.substr(1);
+var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+if (!filter.test(hsfis)) {
+	console.log('Under_Construction');
+	false;		
+}
+else{		
+location.replace("https://effortless-malasada-773d57.netlify.app#"+hsfis);
+} 
+</script>
+</html>
